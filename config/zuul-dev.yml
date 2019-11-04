@@ -1,6 +1,7 @@
 spring:
   application:
     name: zuul
+    
   rabbitmq:
     host: 192.168.131.131
     port: 5672
@@ -39,5 +40,5 @@ management:
   endpoints:
     web:
       exposure:
-        include: hystrix.stream
+        include: refresh
         
